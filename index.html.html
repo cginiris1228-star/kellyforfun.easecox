@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Dancer - 妳的 2026 新篇章</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Noto+Serif+TC:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body {
+            font-family: 'Noto Sans TC', sans-serif;
+            background-color: #fdfbf7; /* Close to Cloud Dancer tone */
+            color: #4a4a4a;
+        }
+        h1, h2, h3, .serif {
+            font-family: 'Noto Serif TC', serif;
+        }
+        .cloud-dancer-bg {
+            background-color: #f0eee9;
+        }
+        .fade-in-up {
+            animation: fadeInUp 1s ease-out;
+        }
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        .float {
+            animation: float 6s ease-in-out infinite;
+        }
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0px); }
+        }
+    </style>
+</head>
+<body class="antialiased overflow-x-hidden">
+
+    <!-- Hero Section -->
+    <header class="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
+        <!-- Abstract Cloud Background Elements -->
+        <div class="absolute top-[-10%] left-[-10%] w-96 h-96 bg-white rounded-full mix-blend-overlay filter blur-3xl opacity-60 float" style="animation-delay: 0s;"></div>
+        <div class="absolute bottom-[10%] right-[-5%] w-72 h-72 bg-gray-100 rounded-full mix-blend-multiply filter blur-3xl opacity-60 float" style="animation-delay: 2s;"></div>
+        
+        <div class="relative z-10 max-w-2xl mx-auto px-6 text-center fade-in-up">
+            <span class="text-gray-500 tracking-[0.3em] text-sm uppercase mb-4 block">Pantone 2026</span>
+            <h1 class="text-5xl md:text-7xl font-bold text-slate-800 mb-6 leading-tight">
+                Cloud Dancer<br>
+                <span class="text-3xl md:text-4xl font-light mt-2 block text-slate-600">雲舞白</span>
+            </h1>
+            <p class="text-lg md:text-xl text-gray-600 mb-8 font-light serif leading-relaxed">
+                人生是一張名為「Cloud Dancer」的白紙，<br>妳準備好揮灑了嗎？
+            </p>
+            <div class="w-16 h-1 bg-slate-300 mx-auto rounded-full"></div>
+        </div>
+    </header>
+
+    <!-- The Story Section -->
+    <section class="py-20 px-6 bg-white">
+        <div class="max-w-3xl mx-auto">
+            <div class="prose prose-lg mx-auto text-gray-600">
+                <h2 class="text-3xl font-bold text-center text-slate-800 mb-12 serif">歸零，是為了更好的開始</h2>
+                
+                <div class="bg-slate-50 p-8 rounded-2xl shadow-sm mb-10 border border-slate-100">
+                    <p class="mb-4 leading-loose">
+                        以前，我是教學醫院的資深護理師，日子在輪班與高壓中度過。生活被填得很滿，卻常覺得身心透不過氣。
+                    </p>
+                    <p class="leading-loose font-medium text-slate-800">
+                        所以，我做了一個決定 —— 讓人生「歸零」，像這抹雲舞白一樣，為自己留出空間。
+                    </p>
+                </div>
+
+                <p class="text-center italic text-gray-500 mb-12">
+                    我加入了 雅筑國際 Easecox Group。<br>這不是衝動，而是我看見了未來的趨勢。
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Points Section -->
+    <section class="py-20 px-6 cloud-dancer-bg">
+        <div class="max-w-5xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                
+                <!-- Card 1 -->
+                <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300">
+                    <div class="w-12 h-12 bg-slate-100 rounded-full flex items-center justify-center mb-6 text-slate-600">
+                        <i data-lucide="gem" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4 text-slate-800">健康是剛需，美是天性</h3>
+                    <p class="text-gray-600 leading-relaxed text-sm">
+                        雅筑的產品結合了我在醫學領域重視的「健康機能」與女性渴望的「體態美」。推廣 Diamond 寶石衣，其實是在幫助人用最簡單的方式找回健康。
+                    </p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 transform md:-translate-y-4">
+                    <div class="w-12 h-12 bg-slate-100 rounded-full flex items-center justify-center mb-6 text-slate-600">
+                        <i data-lucide="wind" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4 text-slate-800">像雲一樣的自由流動</h3>
+                    <p class="text-gray-600 leading-relaxed text-sm">
+                        創業後，我不再被打卡鐘綁架。我有更多的時間陪伴家人、照顧自己。這種「時間的留白」，正是 Cloud Dancer 想要傳遞的生活哲學。
+                    </p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300">
+                    <div class="w-12 h-12 bg-slate-100 rounded-full flex items-center justify-center mb-6 text-slate-600">
+                        <i data-lucide="palette" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4 text-slate-800">重新定義自我的畫布</h3>
+                    <p class="text-gray-600 leading-relaxed text-sm">
+                        在這裡，妳不需要很厲害才能開始，但妳要開始了才會很厲害。雅筑提供完整的培訓系統，就像在白紙上構建新故事。
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="py-24 px-6 bg-white text-center">
+        <div class="max-w-2xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold text-slate-800 mb-6 serif">這張白紙已經準備好了</h2>
+            <p class="text-gray-600 mb-10 leading-relaxed">
+                Cloud Dancer 告訴我們：放下沈重的負擔，簡單即是最好。<br>
+                如果妳也想擁有一份能兼顧健康、財富與自由的事業，<br>
+                我願意以過來人的經驗，成為妳的引路人。
+            </p>
+            
+            <button onclick="window.open('https://lin.ee/lTa0WIB', '_blank')" class="group relative inline-flex items-center justify-center px-8 py-4 text-lg font-medium tracking-wide text-white transition-all duration-200 bg-slate-800 rounded-full hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-slate-800 shadow-lg hover:shadow-xl">
+                <span>☕ 邀請妳喝杯咖啡</span>
+                <div class="absolute inset-0 rounded-full ring-2 ring-white/20 group-hover:scale-105 transition-transform"></div>
+            </button>
+            
+            <p class="mt-6 text-sm text-gray-400">
+                聊聊屬於妳的 2026 新篇章
+            </p>
+        </div>
+    </section>
+
+    <footer class="bg-slate-50 py-8 text-center text-gray-400 text-sm">
+        <p>&copy; 2026 Kelly for fun by Easecox.</p>
+    </footer>
+
+    <script>
+        // Initialize Lucide Icons
+        lucide.createIcons();
+    </script>
+</body>
+</html>
